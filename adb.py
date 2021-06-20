@@ -1,9 +1,9 @@
 import pymysql
 
 def insert_user(userid, username, userpw):
-    db = pymysql.connect(host='127.0.0.1',
-                    user='root', password='1234',
-                    db='adb', charset='utf8')
+    db = pymysql.connect(host='aaaiaiaa.mysql.pythonanywhere-services.com',
+                    user='aaaiaiaa', password='kioplkiopl',
+                    db='aaaiaiaa$mydb', charset='utf8')
 
     c = db.cursor()
     setdata = (userid, username, userpw)

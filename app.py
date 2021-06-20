@@ -84,5 +84,5 @@ def football():
 # 배구페이지
 # 농구페이지
 
-if __name__ == '__main__':
-    app.run(debug=True)
+#if __name__ == '__main__':
+#    app.run(debug=True)
